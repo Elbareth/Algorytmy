@@ -1,4 +1,6 @@
-private static Integer stepNr = 0;
+public class Main
+{
+    private static Integer stepNr = 0;
     private static void binarySearch(Integer[] arr, Integer leftEnd, Integer rigthEnd, Integer value){
         stepNr++;
         Integer mid = (leftEnd + rigthEnd) / 2;
